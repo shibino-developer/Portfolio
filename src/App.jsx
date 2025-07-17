@@ -1,26 +1,35 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS styles
-
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
+import Services from './sections/Services';
+import TechStack from './sections/TechStack';
+import Skills from './sections/Skills';
+import Portfolio from './sections/Portfolio';
+import Certifications from './sections/Certifications';
+import Clients from './sections/Clients';
+import Testimonials from './sections/Testimonials';
+import Experiences from './sections/Experiences';
+import Education from './sections/Education';
+// import Resume from './sections/Resume';
+import Contact from './sections/Contact';
+import Footer from './components/Footer';
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,   // Animation duration (ms)
-      once: true,       // Only animate once when scrolling down
-    });
-  }, []);
-
   return (
-    <>
-      <Header />
+    <div className="font-sans">
+      <Navbar />
       <Hero />
       <Services />
-    </>
+      <TechStack />
+      <Skills />
+      <Portfolio />
+      <Certifications />
+      <Clients />
+      <Testimonials />
+      <Experiences />
+      <Education />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
