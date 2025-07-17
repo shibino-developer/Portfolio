@@ -26,7 +26,7 @@ const Hero = () => (
         <img
           src={profileImg}
           alt="Profile"
-          className="w-full max-w-sm object-cover"
+          className="w-full max-w-sm object-cover rounded-md"
         />
       </div>
     </div>

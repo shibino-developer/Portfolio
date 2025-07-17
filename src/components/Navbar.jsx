@@ -7,7 +7,8 @@ const Header = () => (
       <nav className="space-x-6 text-sm text-gray-700">
         <a href="#services">What I Do</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#resume">Resume</a>
+        <a href="#blog">Blog</a>
+        {/* <a href="#resume">Resume</a> */}
         <a href="#contact">Contact</a>
       </nav>
     </div>
