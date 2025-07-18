@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9c990e17.css",
-    "main.js": "/Portfolio/static/js/main.c390e0c1.js",
+    "main.css": "/Portfolio/static/css/main.0daa9472.css",
+    "main.js": "/Portfolio/static/js/main.cf63c9a9.js",
     "static/media/Movie recommendation .jpg": "/Portfolio/static/media/Movie recommendation .8104342c205163e23710.jpg",
     "static/media/GenAI versecraft.jpg": "/Portfolio/static/media/GenAI versecraft.140a3b42f03752475e12.jpg",
     "static/media/Img1.jpg": "/Portfolio/static/media/Img1.f9a766201f04cb301efb.jpg",
@@ -20,13 +20,31 @@
     "static/media/ERP emp.jpg": "/Portfolio/static/media/ERP emp.2139a96da72c0ff2a784.jpg",
     "static/media/Password manager.jpg": "/Portfolio/static/media/Password manager.fffb3ae137a55bfd6b14.jpg",
     "static/media/Medicaimage.jpg": "/Portfolio/static/media/Medicaimage.689aff5012f73a4c2a87.jpg",
+    "static/media/Reactjs.jpg": "/Portfolio/static/media/Reactjs.7fafa4d2826653bee130.jpg",
+    "static/media/Canva.jpg": "/Portfolio/static/media/Canva.503ed2c15e9fac81bb12.jpg",
     "static/media/Billing .jpg": "/Portfolio/static/media/Billing .ada7ec4fd6c9984f08bd.jpg",
+    "static/media/cplus.jpg": "/Portfolio/static/media/cplus.da82e4121bdc2eb48056.jpg",
+    "static/media/C.jpg": "/Portfolio/static/media/C.81814bff19dbcda1095e.jpg",
+    "static/media/HTML5.jpg": "/Portfolio/static/media/HTML5.5a60dbaa6d43939cab4d.jpg",
+    "static/media/scikit.jpg": "/Portfolio/static/media/scikit.d4be2208811833be6612.jpg",
+    "static/media/php.jpg": "/Portfolio/static/media/php.9d1112e53252b5146787.jpg",
+    "static/media/SQL.jpg": "/Portfolio/static/media/SQL.1c4328343663da69e728.jpg",
+    "static/media/wordpress.jpg": "/Portfolio/static/media/wordpress.c56d8bab878f9114785c.jpg",
+    "static/media/openai.jpg": "/Portfolio/static/media/openai.913c4ddd343e84c08bba.jpg",
+    "static/media/CSS3.jpg": "/Portfolio/static/media/CSS3.8cfe6ad25310268b16f3.jpg",
+    "static/media/js.jpg": "/Portfolio/static/media/js.b28cbbd01e6447f4ba1c.jpg",
+    "static/media/mysql.jpg": "/Portfolio/static/media/mysql.b8fde6fb1639d2796c48.jpg",
+    "static/media/vscode.jpg": "/Portfolio/static/media/vscode.da528e0e876ae2b70277.jpg",
+    "static/media/figma.jpg": "/Portfolio/static/media/figma.0a91887de39a936df98a.jpg",
+    "static/media/mongodb.jpg": "/Portfolio/static/media/mongodb.d7f7c9aba6bd24754576.jpg",
+    "static/media/tensorflow.jpg": "/Portfolio/static/media/tensorflow.c16423835fec3e963503.jpg",
+    "static/media/python.jpg": "/Portfolio/static/media/python.e7e3490e5ef61c9c1514.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.9c990e17.css.map": "/Portfolio/static/css/main.9c990e17.css.map",
-    "main.c390e0c1.js.map": "/Portfolio/static/js/main.c390e0c1.js.map"
+    "main.0daa9472.css.map": "/Portfolio/static/css/main.0daa9472.css.map",
+    "main.cf63c9a9.js.map": "/Portfolio/static/js/main.cf63c9a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c990e17.css",
-    "static/js/main.c390e0c1.js"
+    "static/css/main.0daa9472.css",
+    "static/js/main.cf63c9a9.js"
   ]
 }
