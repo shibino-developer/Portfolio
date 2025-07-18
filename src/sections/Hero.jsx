@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../assets/Image1.jpg'; // ✅ Import your image
+import profileImg from '../assets/Img1.jpg'; // ✅ Import your image
 
 const Hero = () => (
   <section className="pt-32 pb-20 bg-gray-50">

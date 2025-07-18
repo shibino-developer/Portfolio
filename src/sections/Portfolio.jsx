@@ -8,7 +8,21 @@ import 'swiper/css/pagination';
 import mrsimage from '../assets/Movie recommendation .jpg';
 import pmimage from '../assets/Password manager.jpg';
 import erpempimage from '../assets/ERP emp.jpg';
-import itinventimage from '../assets/IT invent.jpg'
+import itinventimage from '../assets/IT invent.jpg';
+import healthinsimage from '../assets/Healthinsight.jpg';
+import zeroimage from '../assets/Zero.jpg';
+import quizimage from '../assets/Online quiz master.jpg';
+import recipeimage from '../assets/Recipe collection site.jpg';
+import genaiimage from '../assets/GenAI versecraft.jpg';
+import bookimage from '../assets/Book search app.jpg';
+import toolsimage from '../assets/Tools trading.jpg';
+import weatherimage from '../assets/Weather app.jpg';
+import cancerimage from '../assets/Cancer detection system.jpg';
+import employeeimage from '../assets/Employee task rating system.jpg';
+import autimage from '../assets/Autonomous agricultural robot.jpg';
+import taskimage from '../assets/Taskmaster .jpg';
+import billingimage from '../assets/Billing .jpg';
+import medicimage from '../assets/Medicaimage.jpg';
 
 const portfolioData = {
   2025: [
@@ -49,139 +63,123 @@ const portfolioData = {
   2024: [
     {
       title: 'HeartInsight',
-      image: '/projects/store.png',
+      image: medicimage,
       tech: ['Python', 'Pandas', 'Scikit-learn', 'Pickle'],
-      desc: 'Shopapp with cart, login, and payments.',
-      github: '',
-      demo: '',
+      desc: 'Developed with Python and deployed via a Flask API, it provides an easy-to-use interface for healthcare providers and individuals to obtain real-time health predictions.',
+      github: 'https://github.com/shibino-developer/healthcare_chatbot',
+      demo: 'https://docs.google.com/presentation/d/1VqcbXdhjaUgu_i08zbaMMkEBQ2J7YhpxU9wt1fcXihw/edit?slide=id.p#slide=id.p',
     },
     {
       title: 'HeartGuard ML: Predictive Health Monitoring System',
-      image: '/projects/crm.png',
+      image: healthinsimage,
       tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Flask'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Implemented advanced machine learning techniques to predict the risk of heart disease from patient data',
+      github: 'https://github.com/shibino-developer/heart_disease_project',
+      demo: 'https://docs.google.com/presentation/d/1AC69BYdURwtI-GtWWm-E33epvXp_BWVUqsIIJri1BJs/edit?slide=id.p#slide=id.p',
     },
      {
       title: 'SecureNetGuard: Zero Trust Network Access Implementation',
-      image: '/projects/store.png',
+      image: zeroimage,
       tech: ['Python', 'Flask', 'WT(JSON Web Token'],
-      desc: 'Shopapp with cart, login, and payments.',
-      github: '',
-      demo: '',
+      desc: 'A Zero Trust Network Access (ZTNA) solution using Flask framework and JSON Web Tokens (JWT) for secure authentication and access control.',
+      github: 'https://github.com/shibino-developer/ztna_project',
+      demo: 'https://docs.google.com/presentation/d/1scbPK1av1l-dosfdpR2TQ9_R7VIlwzRwYd8Tn8Z2h0A/edit?slide=id.p#slide=id.p',
     },
     {
       title: 'Online Quiz Master',
-      image: '/projects/crm.png',
+      image: quizimage,
       tech: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Developed an online quiz master using React framework.',
+      github: 'https://github.com/shibino-developer/my-quiz-app',
+      demo: 'https://shibino-developer.github.io/my-quiz-app/',
     },
     {
       title: 'Recipe Collection Site',
-      image: '/projects/crm.png',
+      image: recipeimage,
       tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Developed a recipe site with HTML5, CSS3, JavScript',
+      github: 'https://github.com/shibino-developer/recipe-site',
+      demo: 'https://shibino-developer.github.io/recipe-site/',
     },
      {
       title: 'AI-Generated Poetry: Exploring Shakespearean Sonnets',
-      image: '/projects/crm.png',
+      image: genaiimage,
       tech: ['Python', 'NumPy', 'Tensorflow', 'Web Scraping'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Leverages deep learning techniques to generate poetry in the style of Shakespearean sonnets, using a Long Short-Term Memory (LSTM).',
+      github: 'hhttps://github.com/shibino-developer/ai-generated-poetry',
+      demo: 'https://docs.google.com/presentation/d/1kqlzw98nwKplSFsqaWB4GBDlY3S66R4OX5j3XWONsvA/edit?slide=id.p#slide=id.p',
     },
      {
       title: 'Book Search App',
-      image: '/projects/crm.png',
+      image: bookimage,
       tech: ['Go', 'CSS3', 'JavaScript', 'Bootstrap', 'ReactJS'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Implemented a web-based application designed to help users find books based on titles or authors. By leveraging the Open Library API, the app fetches and displays book details, including cover images, publication dates, and authors.',
+      github: 'https://github.com/shibino-developer/book-search-app',
+      // demo: 'https://yourcrmapp.com',
     },
     {
       title: 'Tools Trading Shop Website',
-      image: '/projects/crm.png',
+      image: toolsimage,
       tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Deeveloped a responsive website for tools and spareparts trading shop.',
+      github: 'https://github.com/shibino-developer/plamparambil-power-tools-website',
+      demo: 'https://shibino-developer.github.io/plamparambil-power-tools-website/',
     },
      {
       title: 'Taskmaster',
-      image: '/projects/crm.png',
+      image: taskimage,
       tech: ['Python', 'Tkinter', 'Matplotlib'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'A sophisticated desktop application built using Tkinter GUI library, designed to streamline task management and provide insightful data visualization.',
+      github: 'https://github.com/shibino-developer/todo_list_app',
+      demo: 'https://docs.google.com/presentation/d/1fo1HuDOBzwa_CHGONq68O5Ch7tWnVEbByILUAV1uMuc/edit?slide=id.p#slide=id.p',
     },
   ],
   2023: [
     {
       title: 'Weather App',
-      image: '/projects/store.png',
+      image: weatherimage,
       tech: ['Python', 'Django', 'SQLite'],
       desc: 'Shop app with cart, login, and payments.',
-      github: '',
-      demo: '',
-    },
-    {
-      title: 'Online Marketing Web Application',
-      image: '/projects/store.png',
-      tech: ['Python', 'Flask', 'SQLAlchemy'],
-      desc: 'Shop app with cart, login, and payments.',
-      github: '',
-      demo: '',
-    },
-    {
-      title: 'College Management System',
-      image: '/projects/crm.png',
-      tech: ['Python', 'Django', 'SQLite'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      github: 'https://github.com/shibino-developer/weather-app',
+      demo: 'https://docs.google.com/presentation/d/1ifmc8kJgmf8XIfGQF-yIthPkYOGq632qx2mcnFnz6oY/edit?slide=id.p#slide=id.p',
     },
   ],
   2022: [
     {
       title: 'Stock Management and Billing System',
-      image: '/projects/store.png',
+      image: billingimage,
       tech: ['Python', 'Tkinter', 'SQLite'],
-      desc: 'Shop app with cart, login, and payments.',
-      github: '',
-      demo: '',
+      desc: 'Developed a database-driven warehouse management system in Python using Tkinter for the user interface and SQLite for database management.',
+      github: 'https://github.com/shibino-developer/Software-Development',
+      demo: 'https://docs.google.com/presentation/d/19vfCIQW5qTognoV7XsATtKiP2pzcgRlIcDRBBKexfr0/edit?slide=id.p#slide=id.p',
     },
   ],
   2021: [
     {
       title: 'Oncolens Detect',
-      image: '/projects/store.png',
+      image: cancerimage,
       tech: ['Python', 'Django', 'React', 'Selenium'],
-      desc: 'Shop app with cart, login, and payments.',
-      github: '',
-      demo: '',
+      desc: 'By providing a centralized platform for managing patient information, including test results, diagnoses, and treatments, the Healthcare Management System has revolutionized patient data management practices.',
+      github: 'https://github.com/shibino-developer/CancerTrackEDC',
+      demo: 'https://docs.google.com/presentation/d/1P6ZVY-tWmzo9-sPZTbaGRZ5npLyhCL3I-SCSjHHbV9o/edit?slide=id.p#slide=id.p',
     },
     {
       title: 'Employee Task Tracking and Rating System',
-      image: '/projects/crm.png',
+      image: employeeimage,
       tech: ['Python', 'Tkinter', 'SQLite'],
-      desc: 'CRM for sales and leads tracking.',
-      github: 'https://github.com/...',
-      demo: 'https://yourcrmapp.com',
+      desc: 'Developed a web application for tracking employee tasks and implementing a rating system to streamline the performance evaluation process within organizations.',
+      // github: 'https://github.com/...',
+      demo: 'https://docs.google.com/presentation/d/1cexq7nOjjwoBTyEhKk0c6mWfyxencH3J/edit?rtpof=true&sd=true',
     },
   ],
   2020: [
     {
       title: 'An Autonomous Agricultural Robot usig IoT',
-      image: '/projects/store.png',
+      image: autimage,
       tech: ['Python', 'JavaScript', 'IoT'],
-      desc: 'Shop app with cart, login, and payments.',
-      github: '',
-      demo: '',
+      desc: 'develop a web application for tracking employee tasks and implementing a rating system to streamline the performance evaluation process within organizations.',
+      // github: '',
+      demo: 'https://docs.google.com/presentation/d/1cexq7nOjjwoBTyEhKk0c6mWfyxencH3J/edit?usp=drive_link&ouid=112880455503250258365&rtpof=true&sd=true',
     },
   ],
 };
