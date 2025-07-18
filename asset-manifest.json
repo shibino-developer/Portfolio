@@ -1,18 +1,32 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9c990e17.css",
-    "main.js": "/Portfolio/static/js/main.1303849c.js",
+    "main.js": "/Portfolio/static/js/main.c390e0c1.js",
     "static/media/Movie recommendation .jpg": "/Portfolio/static/media/Movie recommendation .8104342c205163e23710.jpg",
-    "static/media/Image1.jpg": "/Portfolio/static/media/Image1.37f403ad4156a3c5f725.jpg",
+    "static/media/GenAI versecraft.jpg": "/Portfolio/static/media/GenAI versecraft.140a3b42f03752475e12.jpg",
+    "static/media/Img1.jpg": "/Portfolio/static/media/Img1.f9a766201f04cb301efb.jpg",
+    "static/media/Healthinsight.jpg": "/Portfolio/static/media/Healthinsight.1fc62d9f92d6caa1099c.jpg",
+    "static/media/Tools trading.jpg": "/Portfolio/static/media/Tools trading.24d0fcef0d382b51e0b4.jpg",
+    "static/media/Online quiz master.jpg": "/Portfolio/static/media/Online quiz master.2b92cc2c6090e2dab6c3.jpg",
+    "static/media/Autonomous agricultural robot.jpg": "/Portfolio/static/media/Autonomous agricultural robot.489a340b93f3a1ca3632.jpg",
+    "static/media/Zero.jpg": "/Portfolio/static/media/Zero.a20a5267f06a63760203.jpg",
+    "static/media/Weather app.jpg": "/Portfolio/static/media/Weather app.365286daab14e24d3780.jpg",
+    "static/media/Taskmaster .jpg": "/Portfolio/static/media/Taskmaster .760f473a340710119843.jpg",
     "static/media/IT invent.jpg": "/Portfolio/static/media/IT invent.fc72a5cc3e521f671d64.jpg",
+    "static/media/Book search app.jpg": "/Portfolio/static/media/Book search app.3f806bd05e812991f710.jpg",
+    "static/media/Employee task rating system.jpg": "/Portfolio/static/media/Employee task rating system.4bde060b4c42bd6507c4.jpg",
+    "static/media/Cancer detection system.jpg": "/Portfolio/static/media/Cancer detection system.5bae96861180ad67bc5d.jpg",
+    "static/media/Recipe collection site.jpg": "/Portfolio/static/media/Recipe collection site.b97704cfe31cc2363ace.jpg",
     "static/media/ERP emp.jpg": "/Portfolio/static/media/ERP emp.2139a96da72c0ff2a784.jpg",
     "static/media/Password manager.jpg": "/Portfolio/static/media/Password manager.fffb3ae137a55bfd6b14.jpg",
+    "static/media/Medicaimage.jpg": "/Portfolio/static/media/Medicaimage.689aff5012f73a4c2a87.jpg",
+    "static/media/Billing .jpg": "/Portfolio/static/media/Billing .ada7ec4fd6c9984f08bd.jpg",
     "index.html": "/Portfolio/index.html",
     "main.9c990e17.css.map": "/Portfolio/static/css/main.9c990e17.css.map",
-    "main.1303849c.js.map": "/Portfolio/static/js/main.1303849c.js.map"
+    "main.c390e0c1.js.map": "/Portfolio/static/js/main.c390e0c1.js.map"
   },
   "entrypoints": [
     "static/css/main.9c990e17.css",
-    "static/js/main.1303849c.js"
+    "static/js/main.c390e0c1.js"
   ]
 }
