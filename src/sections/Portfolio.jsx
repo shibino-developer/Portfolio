@@ -188,7 +188,7 @@ const sortedYears = Object.keys(portfolioData).sort((a, b) => b - a);
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="py-20 bg-[#470f0f] dark:[#123a2d]">
+    <section id="portfolio" className="py-20 bg-[#ab0f09] dark:[#123a2d]">
       <div className="max-w-[1400px] mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-12 text-white dark:text-white">
           Portfolio
@@ -199,7 +199,7 @@ const Portfolio = () => {
           {sortedYears.map((year, index) => (
             <div
               key={year}
-              className="bg-[#470f0f] [#123a2d] p-4 rounded-xl shadow-md"
+              className="bg-[#ab0f09] [#123a2d] p-4 rounded-xl shadow-md"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
@@ -225,14 +225,14 @@ const Portfolio = () => {
                       />
 
                       {/* Hover overlay */}
-                      <div className="absolute inset-0 bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 text-white flex flex-col justify-center items-center p-4 rounded-md">
+                      <div className="absolute inset-0 bg-[#060504]  bg-opacity-80 opacity-0 group-hover:opacity-100 transition duration-300 text-white flex flex-col justify-center items-center p-4 rounded-md">
                         <h4 className="text-lg font-bold mb-2 text-center">{project.title}</h4>
                         <p className="text-sm mb-2 text-center">{project.desc}</p>
                         <div className="flex flex-wrap justify-center gap-2 text-xs mb-3">
                           {project.tech.map((tech, i) => (
                             <span
                               key={i}
-                              className="bg-[#b92929] text-white px-2 py-0.5 rounded"
+                              className="bg-[#ab0f09] text-white px-2 py-0.5 rounded"
                             >
                               {tech}
                             </span>
@@ -246,7 +246,7 @@ const Portfolio = () => {
                               rel="noopener noreferrer"
                               title="GitHub"
                             >
-                              <Github className="w-5 h-5 hover:text-[#b92929]" />
+                              <Github className="w-5 h-5 hover:text-[#ab0f09]" />
                             </a>
                           )}
                           {project.demo && (
@@ -256,7 +256,7 @@ const Portfolio = () => {
                               rel="noopener noreferrer"
                               title="Live Demo"
                             >
-                              <ExternalLink className="w-5 h-5 hover:text-[#b92929]" />
+                              <ExternalLink className="w-5 h-5 hover:text-[#ab0f09]" />
                             </a>
                           )}
                         </div>

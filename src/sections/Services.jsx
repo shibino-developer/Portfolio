@@ -43,7 +43,7 @@ const services = [
 
 const Services = () => (
   <section id="services" className="py-20 bg-white text-center dark:bg-gray-950">
-    <h2 className="text-3xl font-bold text-[#123a2d] dark:text-white mb-6">What I Do</h2>
+    <h2 className="text-3xl font-bold text-[#060504] dark:text-white mb-6">What I Do</h2>
     <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
       {services.map((service, i) => (
         <div
@@ -52,8 +52,8 @@ const Services = () => (
           data-aos="fade-up"
           data-aos-delay={i * 100}
         >
-          <div className="text-[#b92929] mb-4 flex justify-center">{service.icon}</div>
-          <h3 className="text-xl font-semibold mb-2 text-[#123a2d] dark:text-white">{service.title}</h3>
+          <div className="text-[#ab0f09] mb-4 flex justify-center">{service.icon}</div>
+          <h3 className="text-xl font-semibold mb-2 text-[#060504]  dark:text-white">{service.title}</h3>
           <p className="text-gray-600 dark:text-gray-400">{service.desc}</p>
         </div>
       ))}

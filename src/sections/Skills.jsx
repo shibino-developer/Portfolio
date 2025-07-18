@@ -52,7 +52,8 @@ const techStack = [
 const TechStack = () => {
   return (
     <section id="tech" className="py-20 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold text-[#123a2d] mb-10">Tech Stack</h2>
+  
+      <h2 className="text-3xl font-bold text-[#060504]  mb-10">Skills</h2>
 
       <div className="flex flex-wrap justify-center gap-8 px-4">
         {techStack.map((tech, i) => (
