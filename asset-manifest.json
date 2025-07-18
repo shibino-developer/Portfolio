@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0daa9472.css",
-    "main.js": "/Portfolio/static/js/main.cf63c9a9.js",
+    "main.css": "/Portfolio/static/css/main.200ae1cd.css",
+    "main.js": "/Portfolio/static/js/main.37d65f43.js",
     "static/media/Movie recommendation .jpg": "/Portfolio/static/media/Movie recommendation .8104342c205163e23710.jpg",
     "static/media/GenAI versecraft.jpg": "/Portfolio/static/media/GenAI versecraft.140a3b42f03752475e12.jpg",
     "static/media/Img1.jpg": "/Portfolio/static/media/Img1.f9a766201f04cb301efb.jpg",
@@ -40,11 +40,11 @@
     "static/media/tensorflow.jpg": "/Portfolio/static/media/tensorflow.c16423835fec3e963503.jpg",
     "static/media/python.jpg": "/Portfolio/static/media/python.e7e3490e5ef61c9c1514.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.0daa9472.css.map": "/Portfolio/static/css/main.0daa9472.css.map",
-    "main.cf63c9a9.js.map": "/Portfolio/static/js/main.cf63c9a9.js.map"
+    "main.200ae1cd.css.map": "/Portfolio/static/css/main.200ae1cd.css.map",
+    "main.37d65f43.js.map": "/Portfolio/static/js/main.37d65f43.js.map"
   },
   "entrypoints": [
-    "static/css/main.0daa9472.css",
-    "static/js/main.cf63c9a9.js"
+    "static/css/main.200ae1cd.css",
+    "static/js/main.37d65f43.js"
   ]
 }
