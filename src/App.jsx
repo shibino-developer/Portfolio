@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Services from './sections/Services';
 import Portfolio from './sections/Portfolio';
+import Skills from './sections/Skills';
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,8 @@ function App() {
       <Hero />
       <Services />
       <Portfolio />
+      <Skills />
+      
     </div>
   );
 }

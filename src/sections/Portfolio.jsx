@@ -174,10 +174,10 @@ const portfolioData = {
   ],
   2020: [
     {
-      title: 'An Autonomous Agricultural Robot usig IoT',
+      title: 'An Autonomous Agricultural Robot using IoT',
       image: autimage,
       tech: ['Python', 'JavaScript', 'IoT'],
-      desc: 'develop a web application for tracking employee tasks and implementing a rating system to streamline the performance evaluation process within organizations.',
+      desc: 'Proposed a web application for tracking employee tasks and implementing a rating system to streamline the performance evaluation process within organizations.',
       // github: '',
       demo: 'https://docs.google.com/presentation/d/1cexq7nOjjwoBTyEhKk0c6mWfyxencH3J/edit?usp=drive_link&ouid=112880455503250258365&rtpof=true&sd=true',
     },
@@ -188,9 +188,9 @@ const sortedYears = Object.keys(portfolioData).sort((a, b) => b - a);
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="py-20 bg-white dark:bg-gray-950">
+    <section id="portfolio" className="py-20 bg-[#470f0f] dark:[#123a2d]">
       <div className="max-w-[1400px] mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+        <h2 className="text-3xl font-bold text-center mb-12 text-white dark:text-white">
           Portfolio
         </h2>
 
@@ -199,11 +199,11 @@ const Portfolio = () => {
           {sortedYears.map((year, index) => (
             <div
               key={year}
-              className="bg-gray-100 dark:bg-gray-900 p-4 rounded-xl shadow-md"
+              className="bg-[#470f0f] [#123a2d] p-4 rounded-xl shadow-md"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
-              <h3 className="text-xl font-semibold text-pink-600 mb-4 text-center">
+              <h3 className="text-xl font-semibold text-white mb-4 text-center">
                 {year}
               </h3>
 
@@ -232,7 +232,7 @@ const Portfolio = () => {
                           {project.tech.map((tech, i) => (
                             <span
                               key={i}
-                              className="bg-pink-500 text-white px-2 py-0.5 rounded"
+                              className="bg-[#b92929] text-white px-2 py-0.5 rounded"
                             >
                               {tech}
                             </span>
@@ -246,7 +246,7 @@ const Portfolio = () => {
                               rel="noopener noreferrer"
                               title="GitHub"
                             >
-                              <Github className="w-5 h-5 hover:text-pink-400" />
+                              <Github className="w-5 h-5 hover:text-[#b92929]" />
                             </a>
                           )}
                           {project.demo && (
@@ -256,7 +256,7 @@ const Portfolio = () => {
                               rel="noopener noreferrer"
                               title="Live Demo"
                             >
-                              <ExternalLink className="w-5 h-5 hover:text-pink-400" />
+                              <ExternalLink className="w-5 h-5 hover:text-[#b92929]" />
                             </a>
                           )}
                         </div>
