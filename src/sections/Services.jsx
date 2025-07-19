@@ -46,7 +46,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
         <div className= "md:col-span-1">
         <h3 className="text-2xl md:text-3xl font-semibold text-[#060504] border-1-4 border-[#ab0f09] pl-4" data-aos="fade-right">
-          Our Services
+          What I do..
         </h3>
       </div>
 
