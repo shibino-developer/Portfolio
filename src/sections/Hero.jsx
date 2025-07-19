@@ -6,19 +6,19 @@ const Hero = () => (
     <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
       
       {/* 🧍 Text Section */}
-      <div className="text-center xl:text-left flex-1" data-aos="fade-right">
+      <div className="text-left xl:text-left flex-1" data-aos="fade-right">
 
          <p className="text-sm md:text-xl font-semibold text-[#060504] leading-tight">
           Hey, I'm
         </p>
         
-         <h1 className="text-6xl font-bold text-[#ab0f09]">Shibino Abraham</h1> 
+         <h1 className="text-3xl font-bold text-[#ab0f09]">Shibino Abraham</h1> 
     
         
-        <p className="text-4xl md:text-lg font-semibold text-[#060504] leading-tight">
+        <p className="pt-2 m-1 text-md font-semibold text-[#060504] leading-tight">
           Turning Ideas into Interactive Web Experiences.
         </p>
-        <p className="m-1 text-xl text-gray-600 w-full">
+        <p className="pt-2 m-1 text-md text-gray-600 w-full">
           Aspiring IT professional skilled in web design and development, data analytics, techncial writing. Passionate about solving problems, creating meaningful digital content, and continuous learning. Let's connect and collaborate!
     
         </p>

@@ -190,9 +190,9 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="py-20 bg-[#ab0f09] dark:[#123a2d]">
       <div className="max-w-[1400px] mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white dark:text-white">
+        <h2 className="text-2xl md:text-3xl font-semibold text-white border-1-4 border-[#ab0f09] pl-4">
           Portfolio
-        </h2>
+        </h2> </div>
 
         {/* Grid rows with 3 cards per row */}
         <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -268,7 +268,7 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-      </div>
+     
     </section>
   );
 };
