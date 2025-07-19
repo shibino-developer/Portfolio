@@ -53,9 +53,9 @@ const TechStack = () => {
   return (
     <section id="tech" className="py-20 bg-gray-100">
       <div className="max-w-[1400px] mx-auto px-6">
-     <h2 className="text-2xl md:text-3xl font-semibold text-[#060504] border-1-4 border-[#ab0f09] pl-4">
+     <h3 className="text-2xl md:text-2xl font-semibold text-[rgb(6,5,4)] border-1-4 border-[#ab0f09] pl-4" data-aos="fade-right">
           Skills
-        </h2></div>
+        </h3></div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4 pt-6">
         {techStack.map((tech, i) => (
@@ -67,7 +67,7 @@ const TechStack = () => {
             <img
               src={tech.icon}
               alt={tech.name}
-              className="w-12 md:w-14 transition-transform duration-300"
+              className="w-full md:w-14 transition-transform duration-300"
             />
             <span className="absolute bottom-2 left-1/2 -translate-x-1/2 text-xs text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity">
               {tech.name}

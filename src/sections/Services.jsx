@@ -45,7 +45,7 @@ const Services = () => {
     <section id ="services" className='bg-white py-20 px-6 md:px-12'>
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
         <div className= "md:col-span-1">
-        <h3 className="text-2xl md:text-3xl font-semibold text-[#060504] border-1-4 border-[#ab0f09] pl-4" data-aos="fade-right">
+        <h3 className="text-xl md:text-3xl font-semibold text-[#060504] border-1-4 border-[#ab0f09] pl-4" data-aos="fade-right">
           What I do..
         </h3>
       </div>
